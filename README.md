@@ -12,7 +12,7 @@ before it is returned. The service always answers with a valid plan, even when t
 | Live base URL | `<PUBLIC_BASE_URL>` |
 | Health check | `<PUBLIC_BASE_URL>/health` |
 | Optimize endpoint | `POST <PUBLIC_BASE_URL>/optimize-energy` |
-| Source | https://github.com/ALPHAMAN-0/Gridwise_LLM_Energy_Optimizer |
+| Source | https://github.com/farhan-alvi/Gridwise_LLM_Energy_Optimizer.git |
 | Container image | `ghcr.io/alphaman-0/gridwise-llm-energy-optimizer:v1.0.0` |
 
 Measured latency (local server, live Gemini free tier, 10 public samples, 2026-09-18): **p50 1.56 s, p95 1.94 s, max 1.96 s**; the LP itself takes about 30 ms per request. Reproduce with `python scripts/run_samples.py --url http://localhost:8000`.
